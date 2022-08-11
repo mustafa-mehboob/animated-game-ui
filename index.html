@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./imgs/mlogo.png">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="background">
+            <div class="alert">
+                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                <strong>Player 1</strong> 
+                <strong>Forward </strong> : D
+                <strong>Backward </strong> : A
+                <strong>Jump </strong> : W
+                <strong>Kick </strong> : S
+            </div>
+            <div class="alert">
+                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                <strong>Player 2</strong> <strong>Forward </strong>  : right-key
+                <strong>Backward </strong>  : left-key
+                <strong>Jump </strong> : upkey
+                <strong>Kick </strong>  : downkey
+            </div>
+            <div class="character1">
+                <img id="character1" src="./imgs/sf-adon.gif" alt="">
+            </div>
+            <div class="character2">
+                <img id="character2" src="./imgs/snk-marco.gif" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
